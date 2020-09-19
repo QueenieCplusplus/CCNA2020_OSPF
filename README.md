@@ -79,6 +79,9 @@ Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息�
 
 * 點到多點
 
+  點到多點網路上 OSPF 的行為和 點到點網路 OSPF 的行為一樣，
+  也使用組播位址 224.0.0.5 傳送 OSPF 協定封包到其他 PSPF 路由器。
+
 # DR & BDR
 
 ![dr](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/DR.png)
