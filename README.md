@@ -37,3 +37,4 @@ OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使�
 ![backbone area](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/backbone_area.png)
 
 R1 & R5 只需要維護該區域 Area1 的 LSDB。
+R3 & R4 只需要維護該區域 Area2 的 LSDB。
