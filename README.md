@@ -23,7 +23,7 @@ IGP 為 Interil Gateway Protocol, 與 EIGP (Enhanced Interior GW Protocol) 相�
 
 # 資料表更新
 
-採用 Link State Update。
+採用 Link State Update 鏈結狀態更新，使用 Multicast 224.0.0.5 和 224.0.0.6 來傳送資料表更新訊息。
 
 # IP port
 
