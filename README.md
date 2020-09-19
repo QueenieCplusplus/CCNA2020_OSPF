@@ -39,3 +39,7 @@ OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使�
 R1 & R5 只需要維護該區域 Area1 的 LSDB (包含紀錄拓樸狀態的變化、包含 LSA 的 flood)。
 
 R3 & R4 只需要維護該區域 Area2 的 LSDB (包含紀錄拓樸狀態的變化、包含 LSA 的 flood)。
+
+Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息交流。
+R3 & R4 只需要維護該區域 Area2 的 LSDB (包含紀錄拓樸狀態的變化、包含 LSA 的 flood)。為
+R3 & R4 只需要維護該區域 Area2 的 LSDB (包含紀錄拓樸狀態的變化、包含 LSA 的 flood)。
