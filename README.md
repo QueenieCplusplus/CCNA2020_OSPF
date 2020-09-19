@@ -80,6 +80,8 @@ Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息�
 
 # DR & BDR
 
+![dr](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/DR.png)
+
 預設路由和備份預設路由都是指稱路由器的介面屬性，而非路由屬性。
 在廣播網路上的OSPF路由器會選舉一台指定路由器（DR）和一台備份指定路由器（BDR）。
 
