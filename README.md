@@ -16,3 +16,8 @@ IGP 為 Interil Gateway Protocol, 與 EIGP (Enhanced Interior GW Protocol) 相�
 
 動態路由協定中常見的 RIP 與 OSPF 就是分別使用不同的演算法，前者屬於計算 hop count 的 distance vector，
 而後者屬於觀察 Link State 鏈結狀態，兩者不同，一個是基於實體路徑 hop 數量，另一個是基於 cost 傳輸質量。
+
+# 資料表紀錄
+
+類似資料庫，同一區域的路由器的資料表都會是一樣的。
+
