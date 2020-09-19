@@ -58,6 +58,10 @@ Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息�
 
 # 傳播更新資訊的方式
 
+
+![multicast](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/multicast.png)
+
+
 * PTP (點對點)
 
   使用組播位址 Multicast IP : 224.0.0.5
