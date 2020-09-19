@@ -35,6 +35,9 @@ OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使�
 骨幹區域負責分配路由資訊給非骨幹路由。
 
 
+![ospf](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/ASBR.png)
+
+
 R2 & R3 兩路由器均開啟了 OSPF，所以為骨幹路由器。
 
 R2 & R3 兩路由器也有端口開啟了 AS 內的鏈路狀態路由表的更新監聽，所以也為區域邊界路由器 ABR。
