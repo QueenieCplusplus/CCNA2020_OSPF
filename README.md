@@ -58,11 +58,11 @@ Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息�
 
 # 傳播更新資訊的方式
 
-* PTP
+* PTP (點對點)
 
-* Broadcast
+* Broadcast (廣播)
 
-* Multicast
+* Multicast (非廣播多路存取、點到多點)
 
 # DR & BDR
 
