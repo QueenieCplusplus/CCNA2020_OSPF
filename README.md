@@ -36,3 +36,4 @@ OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使�
 
 ![backbone area](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/backbone_area.png)
 
+R1 & R 只需要維護該區域的鏈路狀態資料庫
