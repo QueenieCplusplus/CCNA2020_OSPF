@@ -29,12 +29,14 @@ IGP 為 Interil Gateway Protocol, 與 EIGP (Enhanced Interior GW Protocol) 相�
 
 OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使用 IP 層，IP port 是 89。
 
-# Backbone 骨幹區域
+# Backbone 骨幹區域與骨幹路由器
 
 即兩個非骨幹區域邏輯性地相互連接的區域。
 骨幹區域負責分配路由資訊給非骨幹路由。
 
 ![backbone area](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/backbone_area.png)
+
+
 
 R1 & R5 只需要維護該區域 Area1 的 LSDB (包含紀錄拓樸狀態的變化、包含 LSA 的 flood)。
 
