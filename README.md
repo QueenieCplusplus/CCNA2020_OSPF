@@ -34,8 +34,6 @@ OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使�
 即兩個非骨幹區域邏輯性地相互連接的區域。
 骨幹區域負責分配路由資訊給非骨幹路由。
 
-![backbone area](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/backbone_area.png)
-
 
 R2 & R3 兩路由器均開啟了 OSPF，所以為骨幹路由器。
 
