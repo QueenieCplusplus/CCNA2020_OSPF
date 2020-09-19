@@ -21,6 +21,10 @@ IGP 為 Interil Gateway Protocol, 與 EIGP (Enhanced Interior GW Protocol) 相�
 
 類似資料庫，同一區域的路由器的資料表都會是一樣的。
 
+# 資料表更新
+
+採用 Link State Update。
+
 # IP port
 
 OSPF 與其他動態路由協定不同的是，它不經由 TCP、UDP，僅使用 IP 層，IP port 是 89。
