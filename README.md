@@ -62,7 +62,7 @@ Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息�
 ![multicast](https://raw.githubusercontent.com/QueenieCplusplus/CCNA2020_OSPF/master/multicast.png)
 
 
-* PTP (點對點)
+* PTP (點對點，多播)
 
   用組播位址 224.0.0.5 傳送 OSPF 協定封包到其他 PSPF 路由器。
 
@@ -72,12 +72,12 @@ Area 0 IP 為 0.0.0.0，使兩個以上不同的區域彼此間能展開訊息�
   所有其他的路由器都將使用目的位址 Des Addr 224.0.0.6，以組播方式傳送 OSPF 封包到 DR 和 BDR，
   所有始發於 DR 和 BDR 的 OSPF 封包使用目的位址 Des Addr 224.0.0.5，以組播方式傳送到所有其他 OSPF 路由器。
 
-* NBMA, 非廣播多路存取
+* NBMA, 非廣播多路(單播)存取
 
   需要選舉 DR 和 BDR，並且所有的 OSPF 封包都是單播 Unicast 傳送的。
   常見於 Ｘ.25。
 
-* 點到多點
+* 點到多點（多播）
 
   點到多點網路上 OSPF 的行為和 點到點網路 OSPF 的行為一樣，
   也使用組播位址 224.0.0.5 傳送 OSPF 協定封包到其他 PSPF 路由器。
